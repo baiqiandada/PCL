@@ -1,1 +1,75 @@
-<th>test</th>
+<local:MyCard Title="白浅SaMa" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
+	<StackPanel Margin="20,30,0,20">
+		<local:MyListItem  Margin="0,0,0,0"
+		            Logo="https://littleskin.cn/avatar/552658" Title="如果再也不能见到你，祝你早安，午安，晚安" Info="In case I don't see you, good afternoon, good evening, and good night! :)"/>
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" />
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="快手" ToolTip="拥抱每一种生活" EventType="打开网页" EventData="https://v.kuaishou.com/OxVFRU" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="抖音" ToolTip="记录美好生活" EventType="打开网页" EventData="https://v.douyin.com/iM2fmJpH" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="哔哩哔哩" ToolTip="(゜-゜)つロ 干杯~" EventType="打开网页" EventData="https://space.bilibili.com/481860240" />
+		</StackPanel>
+
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="QQ频道" EventType="打开网页" EventData="https://pd.qq.com/s/429a583q3" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="网易云" ToolTip="用音乐传递美好力量" EventType="打开网页" EventData="https://music.163.com/#/user?id=3584381343" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                        Text="KOOK" ToolTip="语音聊天建议用下面那个语音频道" EventType="打开网页" EventData="https://kook.vip/r8uju2" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="找我玩" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
+	<StackPanel Margin="25,40,23,15">
+	<local:MyListItem  Margin="0,0,0,0"
+		            Logo="https://littleskin.cn/avatar/552658" Title="及时行乐" Info="Live the for moment :)" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" />
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Steam" EventType="打开网页" EventData="https://steamcommunity.com/id/666888886/" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Epic" EventType="打开网页" EventData="https://store.epicgames.com/zh-CN/u/5069065a5a08448e9480f33775064152" />
+			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="语音频道" EventType="打开网页" EventData="https://oopz.cn/i/rupVJ9" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="实用网站" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+	 	<TextBlock Margin="0,0,0,4"
+                    Text="Ciallo～(∠・ω&lt; )⌒☆" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://avatars.githubusercontent.com/u/65645717" Title="皮肤站" Info="欢迎使用 LittleSkin :-)" 
+		            EventType="打开网页" EventData="https://littleskin.cn/user" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://biemoyu.com/wp-content/uploads/2023/07/b82e2-namemc.com.png" Title="NameMC" Info="用户名和皮肤查询" 
+		            EventType="打开网页" EventData="https://zh-cn.namemc.com/" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://i.mcmod.cn/author/cover/20220206/1644086171_10167_ThHi.jpg" Title="MC百科" Info="最大的Minecraft中文MOD百科" 
+		            EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="http://mcid.lingningyu.cn/use_mcid/images/show.BAI.png" Title="方块ID" Info="方块与物品ID列表支持数字ID、新旧中文名、英文搜索" 
+		            EventType="打开网页" EventData="http://mcid.lingningyu.cn/" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://www.mcnav.net/wp-content/uploads/2021/08/1628156278-favicon.png" Title="地图解析" Info="输入地图种子即可解析地图" 
+		            EventType="打开网页" EventData="https://www.chunkbase.com/apps/seed-map" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://images.wikia.com/minecraft_de_gamepedia/images/b/bc/Wiki.png" Title="Minecraft Wiki" Info="这里致力于收集一切和Minecraft有关的信息" 
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://gd-hbimg.huaban.com/f3cc5b767a0437ec48c27a42835ea8b22235e7a35a256-VfYpGo_fw658webp" Title="原神启动" Info="2020年米哈游开发的开放世界冒险游戏" 
+		            EventType="打开网页" EventData="https://ys.mihoyo.com/main/" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://pluspng.com/img-png/spotify-logo-png-spotify-music-app-icon-1024.jpg" Title="听周杰伦" Info="台湾男歌手、流行歌曲作家、演员" 
+		            EventType="打开网页" EventData="https://pan.baidu.com/s/1gZ1zlSsCNfZOkqQL3JH2Ow?pwd=1234" Type="Clickable" />
+		<local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="免费看片" Info="？？？"
+		            EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/" Type="Clickable" />
+		<local:MyHint Text="图片不显示需开启VPN，若左下角提示下载失败，则是图片链接失效，但任可以正常访问" />
+	</StackPanel>
+</local:MyCard>
