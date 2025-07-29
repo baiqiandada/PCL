@@ -1,7 +1,8 @@
-<local:MyCard Title="白浅SaMa" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
+﻿<local:MyCard Title="白浅SaMa" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
 	<StackPanel Margin="20,30,0,20">
 		<local:MyListItem  Margin="0,0,0,0"
-		            Logo="https://littleskin.cn/avatar/552658" Title="如果再也不能见到你，祝你早安，午安，晚安" Info="In case I don't see you, good afternoon, good evening, and good night! :)"/>
+		            Logo="https://littleskin.cn/avatar/552658" Title="如果再也不能见到你，祝你早安，午安，晚安" Info="In case I don't see you, good afternoon, good evening, and good night! :)" 
+					EventType="打开网页" EventData="https://solo.to/baiqian" Type="Clickable"/>
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" />
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
@@ -23,10 +24,10 @@
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="找我玩QWQ" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
+<local:MyCard Title="找我玩" Margin="0,0,0,15" CanSwap="true" IsSwaped="False" >
 	<StackPanel Margin="25,40,23,15">
 	<local:MyListItem  Margin="0,0,0,0"
-		            Logo="https://littleskin.cn/avatar/552658" Title="及时行乐" Info="Live in the moment :)" />
+		            Logo="https://littleskin.cn/avatar/552658" Title="及时行乐" Info="Live the for moment :)" />
 		<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" />
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 			<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
@@ -70,5 +71,6 @@
 		<local:MyListItem  Margin="-5,2,-5,8"
 		            Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="免费看片" Info="？？？"
 		            EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/" Type="Clickable" />
+		<local:MyHint Text="图片不显示需开启VPN，若左下角提示下载失败，则是图片链接失效，但任可以正常访问" />
 	</StackPanel>
 </local:MyCard>
